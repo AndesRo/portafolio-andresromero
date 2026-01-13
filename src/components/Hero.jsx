@@ -163,7 +163,7 @@ const Hero = () => {
               {/* Foto principal */}
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl group">
                 <img
-                  src="/src/assets/perfil.png"
+                  src="/perfil.png"
                   alt="Foto profesional de Andrés"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
