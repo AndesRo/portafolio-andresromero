@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <!-- SEO Primary Meta Tags -->
+  <title>Andres - Desarrollador de software Dev</title>
+  <meta name="description" content="Portafolio profesional de Andres Romero." />
+  <meta name="keywords" content="desarrollador, programador, web developer" />
+  <meta name="author" content="Andres Romero" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0ea5e9" />
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://portafolio-andresromero.vercel.app" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://portafolio-andresromero.vercel.app" />
+  <meta property="og:title" content="Andres Romero - Desarrollador de software" />
+  <meta property="og:description" content="Desarrollo de software-aplicando tecnologías modernas." />
+  <meta property="og:image" content="https://portafolio-andresromero.vercel.app/perfil.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="es_ES" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://portafolio-andresromero.vercel.app" />
+  <meta property="twitter:title" content="[Tu Nombre] - Desarrollador Full-Stack & Ingeniero de Software" />
+  <meta property="twitter:description" content="Portafolio profesional de desarrollo de software con +3 años de experiencia en tecnologías modernas." />
+  <meta property="twitter:image" content="https://portafolio-andresromero.vercel.app/perfil.png" />
+  <meta property="twitter:creator" content="@tuusuario" />
+  
+  <!-- Favicon & App Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/public/icono.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0ea5e9">
+  
+  <!-- Preload Critical Resources -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Andres Romero",
+    "url": "https://portafolio-andresromero.vercel.app",
+    "image": "https://portafolio-andresromero.vercel.app/perfil.png",
+    "sameAs": [
+      "https://github.com/AndesRo",
+      "https://www.linkedin.com/in/romeromllq/",
+      "https://twitter.com/tuusuario"
+    ],
+    "jobTitle": "Desarrollador Web- programador de software",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "AndesRo-Dev"
+    },
+    "description": "Desarrollador de software .",
+    "knowsAbout": ["JavaScript", "TypeScript", "React", "Node.js", "Next.js", "Tailwind CSS", "AWS"]
+  }
+  </script>
+  
+  <!-- Performance Optimizations -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Critical CSS (opcional, para mejorar LCP) -->
+  <style>
+    /* Critical CSS para mejorar First Paint */
+    :root {
+      --color-primary: 14, 165, 233;
+      --color-accent: 168, 85, 247;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .loading {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      transition: opacity 0.5s ease-out;
+    }
+    
+    .loader {
+      width: 50px;
+      height: 50px;
+      border: 3px solid rgba(14, 165, 233, 0.3);
+      border-radius: 50%;
+      border-top-color: #0ea5e9;
+      animation: spin 1s ease-in-out infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    
+    /* Mejora de accesibilidad para focus */
+    :focus-visible {
+      outline: 2px solid #0ea5e9;
+      outline-offset: 2px;
+    }
+    
+    /* Mejorar renderizado de fuentes */
+    .font-smoothing {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading" id="loading">
+    <div class="loader"></div>
+    <span class="sr-only">Cargando portafolio...</span>
+  </div>
+
+  <!-- Main App Container -->
+  <div id="root"></div>
+  
+  <!-- No Script Fallback -->
+  <noscript>
+    <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #0f172a; color: #fff; display: flex; align-items: center; justify-content: center; padding: 2rem; text-align: center; z-index: 10000;">
+      <div>
+        <h1 style="font-size: 2rem; margin-bottom: 1rem; color: #0ea5e9;">¡JavaScript está deshabilitado!</h1>
+        <p style="font-size: 1.125rem; margin-bottom: 1.5rem; max-width: 600px;">
+          Este portafolio requiere JavaScript para funcionar correctamente. Por favor, habilita JavaScript en tu navegador para continuar.
+        </p>
+        <p style="color: #94a3b8;">
+          Si necesitas ayuda para habilitar JavaScript, visita 
+          <a href="https://www.enable-javascript.com/es/" style="color: #0ea5e9; text-decoration: underline;">
+            esta guía
+          </a>
+        </p>
+      </div>
+    </div>
+  </noscript>
+
+  <!-- Performance & Analytics Scripts (opcional) -->
+  <script>
+    // Remove loading screen when page is loaded
+    window.addEventListener('load', function() {
+      const loading = document.getElementById('loading');
+      if (loading) {
+        loading.style.opacity = '0';
+        setTimeout(() => {
+          loading.style.display = 'none';
+        }, 500);
+      }
+    });
+
+    // Fallback for older browsers
+    if (!window.Promise) {
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js';
+      document.head.appendChild(script);
+    }
+
+    // Service Worker registration for PWA (opcional)
+    if ('serviceWorker' in navigator && window.location.hostname !== 'localhost') {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').catch(function(error) {
+          console.log('Service Worker registration failed:', error);
+        });
+      });
+    }
+
+    // Web Vitals (opcional - para métricas de rendimiento)
+    if (typeof window.gtag !== 'function') {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      // Google Analytics (reemplaza con tu ID)
+      // gtag('config', 'G-XXXXXXXXXX');
+    }
+
+    // Preferencia de tema basada en sistema
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      
+      if (!savedTheme && !prefersDark) {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
+  
+  <!-- Google Analytics (opcional) -->
+  <!-- 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  -->
+  
+  <!-- Vite Script -->
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

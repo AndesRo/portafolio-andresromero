@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://portafolio-andresromero.vercel.app/sitemap.xml
+
+# SEO Optimization
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
