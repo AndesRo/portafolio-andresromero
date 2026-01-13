@@ -12,7 +12,7 @@ const Hero = () => {
   "Software Developer",
   "Frontend Developer",
   "Backend Developer",
-  "Web Developer"
+ 
   ];
 
   // Efecto para el texto que cambia
@@ -187,7 +187,7 @@ const Hero = () => {
               {/* Badge flotante - Stack */}
               <div className="absolute -top-4 -left-4 md:-top-6 md:-left-6 animate-float">
                 <div className="px-4 py-2 bg-gradient-to-r from-primary-500 to-accent-500 text-white rounded-full shadow-xl">
-                  <span className="text-sm font-semibold">Web Developer </span>
+                  <span className="text-sm font-semibold">Frontend Developer </span>
                 </div>
               </div>
             </div>
