@@ -189,7 +189,7 @@ const Contact = () => {
                 </div>
               </div>
               <a
-                href="/cv.pdf"
+                href="/CV.pdf"
                 download
                 className="block w-full text-center py-3 bg-primary-500 hover:bg-primary-600 dark:bg-accent-500 dark:hover:bg-accent-600 text-white font-medium rounded-lg transition-colors"
               >

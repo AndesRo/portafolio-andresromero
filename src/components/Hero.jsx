@@ -8,12 +8,12 @@ const Hero = () => {
   const [cursorVisible, setCursorVisible] = useState(true);
   const { mousePosition } = useMouse();
 
-  const roles = [
-  "Software Developer",
-  "Frontend Developer",
-  "Backend Developer",
- 
-  ];
+const roles = [
+  "Software Dev",
+  "Frontend Web Developer",
+  "Backend Web Developer",
+  "Full Stack Web Developer"
+];
 
   // Efecto para el texto que cambia
   useEffect(() => {
