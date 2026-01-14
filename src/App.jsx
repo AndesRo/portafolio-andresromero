@@ -27,7 +27,7 @@ function App() {
         <footer className="relative z-10 py-8 px-4 border-t border-gray-200 dark:border-gray-800 mt-16">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-gray-600 dark:text-gray-400">
-              © {new Date().getFullYear()} AndesRo. Todos los derechos reservados.
+             AndesRo © {new Date().getFullYear()} 
             </p>
             <p className="text-sm text-gray-500 dark:text-gray-500 mt-2">
               Diseñado y desarrollado con React, Tailwind CSS y Vite.

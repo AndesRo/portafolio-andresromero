@@ -99,7 +99,7 @@ const roles = [
 
             {/* Frase de valor */}
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl mx-auto lg:mx-0 animate-fade-in-up">
-              Entuciasmado en crear soluciones digitales{" "}
+              Entusiasmado en crear soluciones digitales{" "}
               <span className="relative inline-block">
                 <span className="relative z-10 font-semibold text-primary-600 dark:text-accent-400">
                   escalables

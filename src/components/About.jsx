@@ -14,7 +14,7 @@ const About = () => {
         <div className="space-y-6 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
           <p>
   Desarrollador web con formación en análisis y programación computacional, con experiencia en el desarrollo
-  de aplicaciones web y sistemas pequeños de gestión. Trabajo con tecnologías modernas enfocadas en crear
+  de aplicaciones web y sistemas de gestión. Trabajo con tecnologías modernas enfocadas en crear
   soluciones funcionales, claras y mantenibles.
 </p>
 

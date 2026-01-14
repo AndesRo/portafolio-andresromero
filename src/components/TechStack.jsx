@@ -84,8 +84,8 @@ const TechStack = () => {
             Tecnologías y Herramientas
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Stack tecnológico completo para el desarrollo de aplicaciones modernas y escalables
-          </p>
+            Conocimiento técnico en un stack de desarrollo orientado a soluciones modernas y escalables para la web.
+         </p>
         </div>
         
         <div className="space-y-12">
