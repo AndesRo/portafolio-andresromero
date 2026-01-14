@@ -60,7 +60,7 @@ const roles = [
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-500/10 dark:bg-accent-500/10 backdrop-blur-sm rounded-full border border-primary-500/20 dark:border-accent-500/20 animate-fade-in-down">
               <div className="w-2 h-2 bg-primary-500 dark:bg-accent-500 rounded-full animate-pulse"></div>
               <span className="text-sm font-medium text-primary-700 dark:text-accent-400">
-                Disponible para nuevas oportunidades
+                Disponible para nuevos proyectos
               </span>
             </div>
 

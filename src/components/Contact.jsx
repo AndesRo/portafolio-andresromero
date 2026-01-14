@@ -364,7 +364,7 @@ const Contact = () => {
               También puedes contactarme directamente:
             </span>
             <a
-              href="mailto:contacto@tudominio.com"
+              href="mailto:andespart.ar@gmail.com"
               className="inline-flex items-center gap-2 px-4 py-2 bg-primary-50 dark:bg-accent-900/20 text-primary-700 dark:text-accent-300 hover:bg-primary-100 dark:hover:bg-accent-800/30 rounded-lg transition-colors"
             >
               <FaEnvelope className="w-4 h-4" />
