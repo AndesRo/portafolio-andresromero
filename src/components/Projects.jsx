@@ -17,7 +17,7 @@ const Projects = () => {
         'Reportes PDF automáticos',
         'Base de datos relacional para historial'
       ],
-      github: 'https://github.com/AndesRo/system-reclamos',
+      github: 'https://github.com/AndesRo/systemTour',
       demo: 'https://demo-reclamos-turisticos.com',
       icon: <FaServer className="w-8 h-8" />,
       category: 'Backend',
