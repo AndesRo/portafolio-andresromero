@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      ⚠️ IMPORTANTE: WhatsApp, Facebook, LinkedIn, X, etc. NO ejecutan JavaScript
+      al generar la vista previa de un link — solo leen el HTML crudo de esta
+      página. Por eso estos meta tags están escritos a mano aquí, además de
+      vivir en src/data/profile.js. Si cambias nombre, rol, tagline o dominio
+      en profile.js, actualiza también los valores de aquí abajo para que
+      coincidan.
+    -->
+
+    <!-- SEO básico -->
+    <title>Andrés Romero · AndesRo</title>
+    <meta name="title" content="Andrés Romero · AndesRo — Desarrollador Web y Automatización de Procesos" />
+    <meta name="description" content="Portafolio de Andrés Romero (AndesRo): desarrollo web, PWAs y automatización de procesos. Proyectos como DriverBoos y Casa Villarrica, construidos con React, Vite y Supabase." />
+    <meta name="author" content="Andrés Romero" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0A0E17" />
+    <link rel="canonical" href="https://tu-portafolio.vercel.app/" />
+    <!-- TODO: reemplaza la URL de arriba (y las de og:url / twitter abajo) por tu dominio real una vez desplegado -->
+
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn, Telegram, Slack…) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tu-portafolio.vercel.app/" />
+    <meta property="og:site_name" content="Andrés Romero · AndesRo" />
+    <meta property="og:title" content="Andrés Romero · AndesRo — Desarrollador Web y Automatización de Procesos" />
+    <meta property="og:description" content="Portafolio de Andrés Romero (AndesRo): desarrollo web, PWAs y automatización de procesos. Proyectos como DriverBoos y Casa Villarrica, construidos con React, Vite y Supabase." />
+    <meta property="og:image" content="https://tu-portafolio.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Andrés Romero — Desarrollador Web y Automatización de Procesos" />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://tu-portafolio.vercel.app/" />
+    <meta name="twitter:title" content="Andrés Romero · AndesRo — Desarrollador Web y Automatización de Procesos" />
+    <meta name="twitter:description" content="Portafolio de Andrés Romero (AndesRo): desarrollo web, PWAs y automatización de procesos. Proyectos como DriverBoos y Casa Villarrica, construidos con React, Vite y Supabase." />
+    <meta name="twitter:image" content="https://tu-portafolio.vercel.app/og-image.png" />
+    <meta name="twitter:image:alt" content="Andrés Romero — Desarrollador Web y Automatización de Procesos" />
+
+    <!-- Datos estructurados (rich results en Google) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Andrés Romero",
+        "alternateName": "AndesRo",
+        "url": "https://tu-portafolio.vercel.app/",
+        "image": "https://tu-portafolio.vercel.app/og-image.png",
+        "jobTitle": "Desarrollador Web y Automatización de Procesos",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Santiago",
+          "addressCountry": "CL"
+        },
+        "sameAs": [
+          "https://github.com/andesro"
+        ]
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
